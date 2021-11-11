@@ -8,7 +8,7 @@ spec:
     image: gcr.io/kaniko-project/executor:latest
     args:
     - "--context=git://github.com/OpenCloudCX/opencloudcx-app"
-    - "--destination=ajnriva/opencloudcx-app:1.0"
+    - "--destination=rivasolutionsinc/opencloudcx-bootstrap-app:1.0"
     volumeMounts:
     - name: kaniko-secret
       mountPath: /kaniko/.docker
