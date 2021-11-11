@@ -16,7 +16,7 @@ spec:
   volumes:
   - name: kaniko-secret
     secret:
-      secretName: rica-dockerhub
+      secretName: riva-dockerhub
       items:
         - key: .dockerconfigjson
           path: config.json
